@@ -248,7 +248,7 @@ header {
 
 .team__field {
   letter-spacing: 0.5px;
-  margin-top: 7.5px;
+  margin-top: 4px;
   font-size: 12px;
   color: #73e7c6;
 }
@@ -263,10 +263,111 @@ header {
     margin-bottom: 1.5em;
   }
   .team__field {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
   .team__img {
     width: 50%;
+  }
+}
+
+@media (max-width: 1230px) {
+  .split {
+    gap: 0.75em;
+  }
+}
+
+.split {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.split > * {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  min-width: 12.3em;
+}
+
+.product {
+  background-color: #457b9d;
+}
+
+.two-col {
+  padding: 2em;
+  background-color: #e5e5e5;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product__title {
+  text-align: center;
+  font-size: clamp(1rem, calc(2.5vw + 0.5rem), 2.5rem);
+  color: #1d3557;
+}
+
+.product__imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product__imgs--physical {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 0.5em;
+}
+
+.product__img--physical {
+  width: 40%;
+  border-radius: 5px;
+  border: 1.5px solid #73e7c6;
+}
+
+.product__imgs--digital {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product__img--stores {
+  width: 25%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 35px;
+}
+
+.product__img--app {
+  rotate: 7deg;
+  width: 50%;
+  margin-right: -20px;
+}
+
+@media (max-width: 800px) {
+  .two-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .product__title--digital {
+    margin-top: 2em;
+    margin-bottom: 0;
   }
 }
 
@@ -315,6 +416,12 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.row--team {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .col {

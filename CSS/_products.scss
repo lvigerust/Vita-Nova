@@ -1,0 +1,73 @@
+.product {
+  background-color: #457b9d;
+}
+
+// FELLES ATTRIBUTTER
+
+.two-col {
+  padding: 2em;
+  background-color: #e5e5e5;
+  border-radius: 15px;
+  display: flex;
+}
+
+.col {
+}
+
+.product__title {
+  text-align: center;
+  font-size: clamp(1rem, calc(2.5vw + 0.5rem), 2.5rem);
+  color: #1d3557;
+}
+
+.product__imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+// KOLLONNE FYSISK PRODUKT
+
+// Flex-container
+.product__imgs--physical {
+  align-content: center;
+  gap: 0.5em;
+}
+
+// Flex-item
+.product__img--physical {
+  width: 40%;
+  border-radius: 5px;
+  border: 1.5px solid #73e7c6;
+}
+// KOLLONNE DIGITALT PRODUKT
+
+// Flex-container
+.product__imgs--digital {
+  flex-direction: row;
+  align-items: center;
+}
+
+// Flex-item
+.product__img--stores {
+  width: 25%;
+  align-self: flex-end;
+  margin-bottom: 35px;
+}
+
+// Flex-item
+.product__img--app {
+  rotate: 7deg;
+  width: 50%;
+  margin-right: -20px;
+}
+
+@media (max-width: 800px) {
+  .two-col {
+    flex-direction: column;
+  }
+  .product__title--digital {
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+}

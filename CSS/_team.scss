@@ -41,7 +41,7 @@
 
 .team__field {
   letter-spacing: 0.5px;
-  margin-top: 7.5px;
+  margin-top: 4px;
   font-size: 12px;
   color: #73e7c6;
 }
@@ -56,9 +56,26 @@
     margin-bottom: 1.5em;
   }
   .team__field {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
   .team__img {
     width: 50%;
+  }
+}
+
+@media (max-width: 1230px) {
+  .split {
+    gap: 0.75em;
+  }
+}
+
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  & > * {
+    flex-basis: 20%;
+    min-width: 12.3em;
   }
 }

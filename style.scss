@@ -6,6 +6,7 @@
 
 @import "./CSS/nav";
 @import "./CSS/team";
+@import "./CSS/products";
 
 body {
   margin: 0;
@@ -44,8 +45,11 @@ section {
 .row {
   display: flex;
   flex-direction: column;
-
   align-items: center;
+}
+
+.row--team {
+  align-items: flex-start;
 }
 
 .col {
