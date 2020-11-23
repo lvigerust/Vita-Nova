@@ -477,6 +477,7 @@ header {
 .box__text p {
   margin: 0;
   margin-bottom: 30px;
+  text-decoration: none;
 }
 
 .contact__content__form {
