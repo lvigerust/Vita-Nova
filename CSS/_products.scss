@@ -36,6 +36,7 @@
   width: 40%;
   border-radius: 5px;
   border: 1.5px solid #73e7c6;
+  align-self: center;
 }
 // KOLLONNE DIGITALT PRODUKT
 
@@ -66,5 +67,11 @@
   .product__title--digital {
     margin-top: 2em;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .product__img--app {
+    margin-right: 5px;
   }
 }

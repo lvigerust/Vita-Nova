@@ -333,6 +333,9 @@ header {
   width: 40%;
   border-radius: 5px;
   border: 1.5px solid #73e7c6;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .product__imgs--digital {
@@ -368,6 +371,12 @@ header {
   .product__title--digital {
     margin-top: 2em;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .product__img--app {
+    margin-right: 5px;
   }
 }
 
