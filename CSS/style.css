@@ -7,7 +7,6 @@
 
 header {
   background-color: #1d3557;
-  padding: 1em 0;
   text-align: center;
 }
 
@@ -120,7 +119,7 @@ header {
 
 .logo {
   height: 60px;
-  width: 65px;
+  width: 8vh;
 }
 
 .fa {
@@ -195,7 +194,6 @@ header {
 
 .team {
   background-color: #457b9d;
-  padding: 7em 0;
 }
 
 .team__title {
@@ -326,6 +324,7 @@ header {
 .product__imgs--physical {
   -ms-flex-line-pack: center;
       align-content: center;
+  margin: 0.5em;
   gap: 0.5em;
 }
 
@@ -333,9 +332,8 @@ header {
   width: 40%;
   border-radius: 5px;
   border: 1.5px solid #73e7c6;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .product__imgs--digital {
@@ -357,7 +355,7 @@ header {
 
 .product__img--app {
   rotate: 7deg;
-  width: 50%;
+  width: 75%;
   margin-right: -20px;
 }
 
@@ -599,6 +597,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  background-color: #457b9d;
+}
+
 img {
   width: 100%;
 }
@@ -699,6 +701,9 @@ section {
         align-self: center;
   }
   .hero__img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     width: 75%;
   }
 }
