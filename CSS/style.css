@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: #1d3557;
+  background-color: #52796f;
   text-align: center;
   padding: 0.5em 0;
 }
@@ -22,7 +22,7 @@ header {
   height: 3em;
   padding: 0em;
   border-radius: 50%;
-  background: #1d3557;
+  background: #52796f;
   color: #fff;
   -webkit-transition: opacity 250ms ease;
   transition: opacity 250ms ease;
@@ -194,7 +194,7 @@ header {
 }
 
 .team {
-  background-color: #457b9d;
+  background-color: #395a5e;
 }
 
 .team__title {
@@ -293,12 +293,12 @@ header {
 }
 
 .product {
-  background-color: #457b9d;
+  background-color: #395a5e;
 }
 
 .two-col {
   padding: 2em;
-  background-color: #f1f1f1;
+  background-color: #dfe4dc;
   border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,7 +308,7 @@ header {
 .product__title {
   text-align: center;
   font-size: clamp(1rem, calc(2.5vw + 0.5rem), 2.5rem);
-  color: #1d3557;
+  color: #2f3e46;
 }
 
 .product__imgs {
@@ -332,7 +332,7 @@ header {
 .product__img--physical {
   width: 40%;
   border-radius: 5px;
-  border: 1.5px solid #73e7c6;
+  border: 1.5px solid #354f52;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -380,7 +380,7 @@ header {
 }
 
 .contact {
-  background-color: #457b9d;
+  background-color: #395a5e;
   padding: 3em;
 }
 
@@ -599,7 +599,7 @@ body {
 }
 
 html {
-  background-color: #457b9d;
+  background-color: #395a5e;
 }
 
 img {
@@ -626,7 +626,7 @@ section {
 }
 
 .hero {
-  background-color: #457b9d;
+  background-color: #395a5e;
   color: #fff;
 }
 
